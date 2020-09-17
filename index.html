@@ -36,7 +36,7 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <div class="col-xs-4">
-                                <a aria-label="Product link" href="https://www.junglegym.ie/get-inspired" }}"
+                                <a aria-label="Product link" href="https://www.junglegym.ie/get-inspired"
                                     target="_blank">
                                     <div class="img-overlay">
                                         <span>Cubby Climb</span>
@@ -72,7 +72,7 @@
                                 </a></div>
                         </div>
                         <div class="item">
-                            <div class="col-xs-4">
+                            <div class="col-xs-4 hide-on-mobile">
                                 <a aria-label="Product link" href="https://www.junglegym.ie/get-inspired"
                                     target="_blank">
                                     <div class="img-overlay">
@@ -95,7 +95,7 @@
                                 </a></div>
                         </div>
                         <div class="item">
-                            <div class="col-xs-4"><a aria-label="Product link"
+                            <div class="col-xs-4 hide-on-mobile"><a aria-label="Product link"
                                     href="https://www.junglegym.ie/get-inspired" target="_blank">
                                     <div class="img-overlay">
                                         <span>Cubby Climb</span>
@@ -103,10 +103,11 @@
                                     <img loading="lazy" alt="customer photo"
                                         src="https://www.junglegym.com/media/wysiwyg/20180831_Wavre_BE_Paradise6_Trainmodule_2-swingmodules2-s.jpg"
                                         class="img-responsive">
-                                </a></div>
+                                </a>
+                            </div>
                         </div>
                         <div class="item">
-                            <div class="col-xs-4"><a aria-label="Product link"
+                            <div class="col-xs-4 hide-on-mobile"><a aria-label="Product link"
                                     href="https://www.junglegym.ie/get-inspired" target="_blank">
                                     <div class="img-overlay">
                                         <span>Chalet 2-Swing</span>
@@ -114,7 +115,8 @@
                                     <img loading="lazy" alt="customer photo"
                                         src="https://www.junglegym.com/media/wysiwyg/Copy_of_20200522_Chalet_2Swing_Brecht_Cassiman_2.jpeg"
                                         class="img-responsive">
-                                </a></div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i
@@ -212,28 +214,28 @@
         }
 
         .carousel-control .glyphicon-chevron-left,
-            .carousel-control .icon-prev {
-                margin-left: -65%;
-            }
+        .carousel-control .icon-prev {
+            margin-left: -65%;
+        }
 
-            .carousel-control {
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                width: 10%;
-                font-size: 20px;
-                color: #02A938;
-                text-align: center;
-                text-shadow: none;
-                /* background-color: rgba(0,0,0,0); */
-                opacity: 1;
-            }
+        .carousel-control {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 10%;
+            font-size: 20px;
+            color: #02A938;
+            text-align: center;
+            text-shadow: none;
+            /* background-color: rgba(0,0,0,0); */
+            opacity: 1;
+        }
 
-            a.left.carousel-control,
-            a.right.carousel-control {
-                background-image: none;
-            }
+        a.left.carousel-control,
+        a.right.carousel-control {
+            background-image: none;
+        }
 
         @media screen and (min-width: 768px) {
 
@@ -244,19 +246,6 @@
             }
 
 
-            i.glyphicon.glyphicon-chevron-left:hover,
-            i.glyphicon.glyphicon-chevron-right:hover {
-                color: #02A938;
-            }
-
-            h2 {
-                color: #333;
-                text-align: center;
-                margin-bottom: 15px;
-                font-size: 35px;
-                letter-spacing: 1.4px;
-                font-weight: 600;
-            }
         }
 
 
@@ -264,7 +253,33 @@
             .carousel-inner .item .col-xs-4 {
                 padding-left: 5px;
                 padding-right: 5px;
+                width: 50%;
             }
+
+            /* To show only two images on mobile view */
+            .carousel-inner .item .col-xs-4:nth-of-type(3) {
+                display: none;
+            }
+
+            .img-overlay {
+                width: 96%;
+                margin-left: 1px;
+                margin-right: 1px;
+            }
+        }
+
+        i.glyphicon.glyphicon-chevron-left:hover,
+        i.glyphicon.glyphicon-chevron-right:hover {
+            color: #02A938;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 35px;
+            letter-spacing: 1.4px;
+            font-weight: 600;
         }
     </style>
 
