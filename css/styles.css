@@ -94,7 +94,7 @@ img.img-responsive {
     left: 0;
     width: 10%;
     font-size: 20px;
-    color: #02A938;
+    color: #16A854;
     text-align: center;
     text-shadow: none;
     /* background-color: rgba(0,0,0,0); */
@@ -135,7 +135,7 @@ a.right.carousel-control {
 
 i.glyphicon.glyphicon-chevron-left:hover,
 i.glyphicon.glyphicon-chevron-right:hover {
-    color: #02A938;
+    color: #16A854;
 }
 
 h2 {
