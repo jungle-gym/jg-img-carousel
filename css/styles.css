@@ -1,3 +1,26 @@
+body {
+        color: #282828;
+        text-align: center;
+    }
+
+h2 {
+    color: #282828 !important;
+    text-align: center !important;
+    margin-bottom: 15px;
+    font-size: 1.75 rem;
+    letter-spacing: 1.4px;
+    font-weight: 600;
+}
+
+h3 {
+    color: #282828 !important;
+    text-align: center !important;
+    margin-bottom: 15px;
+    font-size: 1.56 rem;
+    letter-spacing: 1.4px;
+    font-weight: 300;
+}
+
 .img-overlay {
     position: absolute;
     bottom: 0;
