@@ -1,4 +1,4 @@
-.body {
+body {
         color: #282828;
         text-align: center;
     }
@@ -144,6 +144,6 @@ i.glyphicon.glyphicon-chevron-right:hover {
     color: #16A854;
 }
 
-.text-dark {
+text-dark {
     color: #282828;
 }
