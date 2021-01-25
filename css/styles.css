@@ -139,7 +139,7 @@ i.glyphicon.glyphicon-chevron-right:hover {
     color: #16A854;
 }
 
-.intro-text2 {
+.intro-text2 h2 {
     color: #333 !important;
     text-align: center !important;
     margin-bottom: 12px !important;
@@ -149,7 +149,7 @@ i.glyphicon.glyphicon-chevron-right:hover {
     font-family: open sans,helvetica neue,Helvetica,Arial,sans-serif !important;
 }
 
-.intro-text3 {
+.intro-text3 h3 {
     color: #333 !important;
     text-align: center !important;
     margin-bottom: 12px !important;
