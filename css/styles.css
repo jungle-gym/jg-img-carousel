@@ -151,8 +151,12 @@ h3 {
         margin-right: 1px;
     }
     
+    body {
+        color: #282828;
+        text-align: center;
+    }
     
-.h2 {
+h2 {
     color: #282828 !important;
     text-align: center !important;
     margin-bottom: 15px;
@@ -162,7 +166,7 @@ h3 {
 }
 
 
-.h3 {
+h3 {
     color: #282828 !important;
     text-align: center !important;
     margin-bottom: 15px;
