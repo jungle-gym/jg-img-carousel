@@ -144,6 +144,11 @@ i.glyphicon.glyphicon-chevron-right:hover {
     color: #16A854;
 }
 
-text-dark {
-    color: #282828;
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 35px;
+    letter-spacing: 1.4px;
+    font-weight: 600;
 }
