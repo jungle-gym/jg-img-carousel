@@ -252,6 +252,104 @@
             $(this).find('.img-overlay').css('opacity', '0');
         });
     </script>
+                                  
+     <br><div class="inspo-buttons">
+       {{widget type="Amasty\Customform\Block\Init" template="Amasty_Customform::init.phtml" form_id="14"}}
+       <a href="/get-inspired"><button class="getinspired-button">Get Inspired</button></a></div>
+<style>
+       .inspo-buttons {
+       display: flex;
+       justify-content: center;
+      align-items: center;
+      margin-top
+       }
+
+     @media (max-width: 425px) {
+           .inspo-buttons {
+              display:flex;
+              justify-content: center;
+             position: absolute;
+             top: 97%;
+            width: 90%;
+}
+}
+
+    @media (max-width: 768px) {
+        .inspo-buttons {
+              display:flex;
+              justify-content: center;
+              width: 90%;
+}
+}
+    .amform-parent .action.primary {
+        font-family: "Open Sans";
+        font-weight: 400;
+        font-size: 14px;
+        max-width: 50%;
+        min-width: 30%;
+        margin: 10px 10px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1.1px;
+        color: #ffffff;
+        margin: 10px 10px;
+        padding: 10px 12px;
+        border-radius: 4px;
+        border: none !important;
+        background-color: #16A854;
+        height: 42px;
+        min-width: 100%;
+    }
+    .amform-parent .action.primary:hover {
+        background-color: #1aca65;
+        color: white !important;
+    }
+
+    .amform-parent {
+        display: inline-block;
+    }
+
+    .getinspired-button {
+        font-family: "Open Sans";
+        font-weight: 400;
+        font-size: 14px;
+        max-width: 50%;
+        margin: 10px 10px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1.1px;
+        color: #ffffff;
+        margin: 10px 10px;
+        padding: 10px 12px;
+        border-radius: 4px;
+        border: none !important;
+        background-color: #16A854;
+        height: 42px;
+        min-width: 100%;
+
+    }
+    .getinspired-button:hover {
+        background-color: #1aca65;
+        color: white !important;
+    }
+
+.getinspired-button:active {
+    background-color: #1aca65;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 8px;
+}
+</style>                           
 
 </body>
 </html>
