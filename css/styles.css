@@ -3,26 +3,6 @@ body {
         text-align: center;
     }
 
-h2 {
-    color: #282828 !important;
-    text-align: center !important;
-    margin-bottom: 12px;
-    font-size: 1.75 rem;
-    letter-spacing: 1.1px;
-    font-weight: 600;
-    font-family: Open Sans, sans-serif;
-}
-
-h3 {
-    color: #282828 !important;
-    text-align: center !important;
-    margin-bottom: 12px;
-    font-size: 1.56 rem;
-    letter-spacing: 1.1px;
-    font-weight: 300;
-    font-family: Open Sans, sans-serif;
-}
-
 .img-overlay {
     position: absolute;
     bottom: 0;
@@ -137,26 +117,7 @@ a.right.carousel-control {
         color: #282828;
         text-align: center;
     }
-    
-h2 {
-    color: #282828 !important;
-    text-align: center !important;
-    margin-bottom: 12px;
-    font-size: 1.75 rem;
-    letter-spacing: 1.1px;
-    font-weight: 600;
-    font-family: Open Sans, sans-serif;
-}
 
-h3 {
-    color: #282828 !important;
-    text-align: center !important;
-    margin-bottom: 12px;
-    font-size: 1.56 rem;
-    letter-spacing: 1.1px;
-    font-weight: 300;
-    font-family: Open Sans, sans-serif;
-}
 }
 
 @media (max-width: 767px) {
@@ -182,25 +143,6 @@ h3 {
         text-align: center;
     }
     
-h2 {
-    color: #282828 !important;
-    text-align: center !important;
-    margin-bottom: 12px;
-    font-size: 1.75 rem;
-    letter-spacing: 1.1px;
-    font-weight: 600;
-    font-family: Open Sans, sans-serif;
-}
-
-h3 {
-    color: #282828 !important;
-    text-align: center !important;
-    margin-bottom: 12px;
-    font-size: 1.56 rem;
-    letter-spacing: 1.1px;
-    font-weight: 300;
-    font-family: Open Sans, sans-serif;
-}
 
 i.glyphicon.glyphicon-chevron-left:hover,
 i.glyphicon.glyphicon-chevron-right:hover {
