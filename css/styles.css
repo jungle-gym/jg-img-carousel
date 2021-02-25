@@ -50,6 +50,11 @@ img.img-responsive {
     left: -33%;
 }
 
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #16A854;
+}
+
 @media all and (transform-3d),
 (-webkit-transform-3d) {
     .multi-item-carousel .carousel-inner>.item {
@@ -77,6 +82,11 @@ img.img-responsive {
 .carousel-control .icon-next {
     right: 50%;
     margin-right: -65%;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #16A854;
 }
 
 @media screen and (min-width: 768px) {
@@ -109,6 +119,10 @@ img.img-responsive {
 a.left.carousel-control,
 a.right.carousel-control {
     background-image: none;
+        
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #16A854;       
 }
 
 @media screen and (min-width: 768px) {
@@ -152,4 +166,5 @@ i.glyphicon.glyphicon-chevron-right:hover {
 .carousel-control:hover,
 .carousel-control:focus {
   color: #16A854;
+}
 }
