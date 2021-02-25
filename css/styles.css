@@ -119,7 +119,8 @@ i.glyphicon.glyphicon-chevron-right:hover {
 a.left.carousel-control,
 a.right.carousel-control {
     background-image: none;
-        
+}
+
 i.glyphicon.glyphicon-chevron-left:hover,
 i.glyphicon.glyphicon-chevron-right:hover {
     color: #16A854;
@@ -162,4 +163,4 @@ i.glyphicon.glyphicon-chevron-left:hover,
 i.glyphicon.glyphicon-chevron-right:hover {
     color: #16A854;
 }
-
+}
