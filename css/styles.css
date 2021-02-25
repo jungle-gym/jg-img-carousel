@@ -149,7 +149,7 @@ i.glyphicon.glyphicon-chevron-right:hover {
     color: #16A854;
 }
         
-  .carousel-control:hover {
-    color: #16A854;
-} 
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #16A854;
 }
