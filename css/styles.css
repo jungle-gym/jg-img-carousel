@@ -148,4 +148,9 @@ i.glyphicon.glyphicon-chevron-left:hover,
 i.glyphicon.glyphicon-chevron-right:hover {
     color: #16A854;
 }
+        
+i.glyphicon.glyphicon-chevron-left:focus,
+i.glyphicon.glyphicon-chevron-right:focus {
+    color: #16A854;
+}
 }
