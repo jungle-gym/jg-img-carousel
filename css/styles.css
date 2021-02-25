@@ -50,9 +50,9 @@ img.img-responsive {
     left: -33%;
 }
 
-.carousel-control:hover,
-.carousel-control:focus {
-  color: #16A854;
+i.glyphicon.glyphicon-chevron-left:hover,
+i.glyphicon.glyphicon-chevron-right:hover {
+    color: #16A854;
 }
 
 @media all and (transform-3d),
@@ -120,9 +120,9 @@ a.left.carousel-control,
 a.right.carousel-control {
     background-image: none;
         
-.carousel-control:hover,
-.carousel-control:focus {
-  color: #16A854;       
+i.glyphicon.glyphicon-chevron-left:hover,
+i.glyphicon.glyphicon-chevron-right:hover {
+    color: #16A854;
 }
 
 @media screen and (min-width: 768px) {
@@ -161,10 +161,5 @@ a.right.carousel-control {
 i.glyphicon.glyphicon-chevron-left:hover,
 i.glyphicon.glyphicon-chevron-right:hover {
     color: #16A854;
-}
-        
-.carousel-control:hover,
-.carousel-control:focus {
-  color: #16A854;
 }
 }
