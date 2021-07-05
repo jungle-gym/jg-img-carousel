@@ -164,3 +164,7 @@ i.glyphicon.glyphicon-chevron-right:hover {
     color: #16A854;
 }
 }
+
+.photo-popup-content {
+   margin-top: 5%!important;
+}
